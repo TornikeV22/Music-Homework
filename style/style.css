@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: roboto;
+}
+@font-face {
+  font-family: roboto;
+  src: url(../Fonts/Roboto-Regular.ttf);
+}
+header {
+  height: 94px;
+  background-color: #000;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+main {
+  padding-top: 94px;
+}
+header h1 {
+  width: 70px;
+  height: 70px;
+  background-image: url(../image/logo.png);
+  float: left;
+  background-size: 100%;
+  text-indent: -9999999px;
+}
+header h1 a {
+  width: 70px;
+  height: 70px;
+  display: block;
+}
+
+header li {
+  float: left;
+  margin-right: 20px;
+  font-size: 18px;
+}
+header li a {
+  color: #fff;
+  padding: 5px 10px;
+}
+header ul {
+  padding-left: 200px;
+  padding-top: 25px;
+}
+nav {
+  padding: 12px;
+  padding-left: 100px;
+  padding-right: 168px;
+}
+h2 {
+  font-size: 24px;
+  color: #000;
+  width: 126px;
+  height: 28px;
+  font-family: roboto;
+  display: block;
+}
+.social {
+  width: 50px;
+  height: 100px;
+  /* background-color: #000; */
+  position: fixed;
+  top: 213px;
+  right: 0;
+}
+.facebook,
+.instagram {
+  width: 100%;
+  height: 50px;
+  background-position: 100%;
+}
+.facebook {
+  background-image: url(../image/fb\ 1.png);
+}
+.instagram {
+  background-image: url(../image/instagram\ 1.png);
+}
+.facebook a,
+.instagram a {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+h2 {
+  font-family: roboto;
+  font-size: 24px;
+  font-weight: 400;
+  margin-left: 100px;
+  margin-top: 51px;
+}
+.track {
+  width: 300px;
+  height: 255px;
+  border: 1px solid #000;
+  margin: 50px 100px 10px 100px;
+  background-image: url(../image/like\ 1.png);
+  background-repeat: no-repeat;
+  background-position: top 0 right 0;
+}
+.picture {
+  width: 100%;
+  height: 50%;
+  background-image: url(../image/sound\ 1.png);
+  background-repeat: repeat-x;
+  background-size: 25%;
+  /* background-position: left; */
+  margin-top: 57px;
+}
+.text1,
+.text2 {
+  font-family: roboto;
+}
+.text1 {
+  font-size: 18px;
+  padding-left: 12px;
+  padding-bottom: 13px;
+}
+.text2 {
+  font-size: 14px;
+  padding-left: 12px;
+}
+.text2::after {
+  content: "...";
+}
+.container a {
+  padding-left: 100px;
+  color: #000;
+  font-size: 12px;
+  font-family: roboto;
+}
+
+.container {
+  float: left;
+  margin-bottom: 100px;
+}
+.nopicture .text1 {
+  padding-top: 184px;
+  padding-left: 12px;
+}
+.footer {
+  background-color: #000;
+  height: 354px;
+  clear: left;
+  /* padding-left: 645px; */
+  padding-top: 27px;
+  background-image: url(../image/footerlogo.png);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-position-x: center;
+  background-position-y: 17px;
+  width: 100%;
+  /* position: fixed; */
+  /* bottom: 0; */
+}
+.footerlist {
+  color: #fff;
+  text-align: center;
+  /* padding-top: 26px; */
+  margin-top: 180px;
+}
+.copyright {
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 17px;
+}
+/*------------------------- aboutstyle ----------------------*/
+section {
+  margin-bottom: 46px;
+  float: left;
+}
+section h2 {
+  font-size: 24px;
+  margin-bottom: 51px;
+  margin-left: 109px;
+}
+.tracklist {
+  font-size: 18px;
+  margin-left: 109px;
+}
+.waveholder {
+  width: 287px;
+  height: 65px;
+  background-image: url(../image/sound\ 1.png);
+  clear: left;
+  background-size: 25%;
+  background-repeat: repeat-x;
+  margin-left: 550px;
+  margin-bottom: 108px;
+
+  /* margin: 0 auto; */
+  /* background-color: aqua; */
+}
+.foredit {
+  margin-left: 50px;
+}
+.foredit2 {
+  clear: left;
+}
+.Iamfdonewiththis {
+  font-size: 36px;
+  font-weight: 500;
+  margin-left: 549px;
+  margin-bottom: 107px;
+  /* background-position: center; */
+}
+.secondrow {
+  margin-bottom: 92px;
+}
